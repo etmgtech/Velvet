@@ -89,7 +89,7 @@ function Confetti({on}) {
 
 // ── Age Gate ────────────────────────────────────────────────
 function AgeGate({ onAccept, siteName }) {
-  const [agreed,setAgreed] = useState(false);
+  const [agreed,setAgreed] = useState(true);
   const [showTos,setShowTos] = useState(false);
   return (
     <div style={{position:'fixed',inset:0,background:'#080808',zIndex:10000,display:'flex',alignItems:'center',justifyContent:'center',padding:'1.5rem'}}>
